@@ -19,22 +19,9 @@ distributionManagement>
          <id>internal.repo</id>
          <name>Internal repo</name>
          <!--<url>file:///home/ubuntu/Releases/</url> -->
-         <url>D:/Git training/release</url>
+         <url>file://D://Git training//release</url>
        </repository>
   </distributionManagement>
-<distributionManagement>
-  <repository>
-    <id>nexus-releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://18.222.207.32:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>nexus-snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://18.222.207.32:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
-</distributionManagement>
-
 
 
   <dependencies>
