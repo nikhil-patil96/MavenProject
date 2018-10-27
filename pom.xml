@@ -18,8 +18,8 @@ distributionManagement>
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///home/ubuntu/Releases/</url>
-         <url>D:\softwares\jenkins\workspace\release</url>
+         <!--<url>file:///home/ubuntu/Releases/</url> -->
+         <url>D:/Git training/release</url>
        </repository>
   </distributionManagement>
 <distributionManagement>
